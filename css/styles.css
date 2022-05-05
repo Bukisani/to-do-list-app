@@ -24,7 +24,7 @@ input {
 
 #button {
   display: inline-block;
-  background-color: #fc999b;
+  background-color: #1b66d6;
   color: #ffffff;
   border-radius: 5px;
   text-align: center;
@@ -47,7 +47,7 @@ ol li {
 }
 
 ol li:nth-child(even) {
-  background: #dfdfdf;
+  background: #92a4ee;
 }
 
 .strike {
