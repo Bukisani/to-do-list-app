@@ -1,2 +1,2 @@
-# to-do-list-app
-this is a JQuery to do app 
+# To-do-list-app
+This is a JQuery to do app 
