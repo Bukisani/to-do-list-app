@@ -36,7 +36,7 @@ function newItem() {
 let addItem = $('.addList');
 addItem.on('click', newItem);
 
-//1. pressing enter key first trial
+//1. pressing enter key first trial.
 //using the enter key to input
 /*$('#input').keypress(function (event) {
   let keycode = event.keyCode ? event.keyCode : event.which;
