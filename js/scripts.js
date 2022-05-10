@@ -24,7 +24,7 @@ function newItem() {
 
   crossOutButton.on('click', deleteListItem);
 
-  //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css
+  //4. Adding CLASS DELETE (DISPLAY: NONE) from the css
   function deleteListItem() {
     $(this).closest('li').remove();
   }
