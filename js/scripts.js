@@ -26,33 +26,13 @@ function newItem() {
 
   //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css
   function deleteListItem() {
-    li.addClass('delete');
+    $(this).closest('li').remove();
   }
 
   // 4. Reordering the items:
   $('#list').sortable();
 }
-
-let addItem = $('.addList');
-addItem.on('click', newItem);
-
-//1. pressing enter key first trial.
-//using the enter key to input
-/*$('#input').keypress(function (event) {
-  let keycode = event.keyCode ? event.keyCode : event.which;
-  if (keycode == '13') {
-    newItem()
-  }
+// avoiding the flickering after clicking the button
+$('#button').on('click', function (event) {
+  event.preventDefault();
 });
-
-
-//2. pressing enter key second trial
-$('#input').keypress(function (event) {
-  let keycode = event.keyCode ? event.keyCode : event.which;
-  if (keycode == '13') {
-    $('.addList').click();
-  }
-});
-
-
-*/
