@@ -26,7 +26,7 @@ The languages and tool I used for this project are:
 
 - The app was adding a task only if the user clicked the add button but I also added some functionality to the project by allowing the user to use the Enter key as well.
 
-* The app had alternate background color on rows. However, if the use deleted a task the background color was not alternating properly. I therefore fixed this and I am very proud of my contribution.
+* The app had alternate background color on rows. However, if the user deleted a task the background color was not alternating properly. I therefore fixed this and I am very proud of my contribution.
 
 ## Contact
 
